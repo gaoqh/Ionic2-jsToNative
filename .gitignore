@@ -20,13 +20,7 @@ coverage/
 dist/
 tmp/
 temp/
-node_modules/
-platforms/
-platforms/ios/ios.json
-platforms/android/android.json
 hooks/
-plugins/
-www/
 $RECYCLE.BIN/
 
 .DS_Store

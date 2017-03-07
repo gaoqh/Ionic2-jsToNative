@@ -27,26 +27,26 @@ export class LoginPage {
   }
  //点击登录按钮
   loginClick() {
-    var data = {
-      'id' : '58b655ba99c25323cc1d4bae' , 
-    }
-    HTTP.post('http://10.10.10.236:8809/find-resume', data, {}).then(res => {
-      var json = res.data
-      console.log(json)
-      if (res.error == null) {
-        let alert = this.alertCtrl.create({
-        title: '登录成功！',
-      });
-      alert.present();
-      this.navCtrl.setPages([HomePage])
-      }else {
-        let alert = this.alertCtrl.create({
-        title: '登录失败！',
-      });
-      alert.present();
-      }
+    // var data = {
+    //   'id' : '' , 
+    // }
+    // HTTP.post('', data, {}).then(res => {
+    //   var json = res.data
+    //   console.log(json)
+    //   if (res.error == null) {
+    //     let alert = this.alertCtrl.create({
+    //     title: '登录成功！',
+    //   });
+    //   alert.present();
+    //   this.navCtrl.setPages([HomePage])
+    //   }else {
+    //     let alert = this.alertCtrl.create({
+    //     title: '登录失败！',
+    //   });
+    //   alert.present();
+    //   }
       
-    })
+    // })
 
 
     
