@@ -1,7 +1,7 @@
-# Ionic2-client
+# Ionic2-jsToNative
 * install modules and plugins.
 
-> $ cd Ionic2-demo</br>
+> $ cd Ionic2-jsToNative</br>
 $ npm install</br>
 $ ionic serve
 </br>
